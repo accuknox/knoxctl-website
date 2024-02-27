@@ -1,0 +1,4 @@
+e5727f608c67055010ead87c3cc94d1ff614eea4c55a3c4d5746b757ce03862f  accuknoxcli_0.2.3_darwin_amd64.tar.gz
+8470fe3fc7d246692fde5bec085b7318bad105c13c65094feed589e3fd114f0f  accuknoxcli_0.2.3_darwin_arm64.tar.gz
+2b425ba19b7718bf1774843e84c2650c6088c4139e253fc76ee668ef24f49a45  accuknoxcli_0.2.3_linux_amd64.tar.gz
+9bd2e8877037a3d69878ed76babb32f19814f708180b5d933ad201178794d29b  accuknoxcli_0.2.3_linux_arm64.tar.gz
