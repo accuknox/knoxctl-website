@@ -9,7 +9,7 @@ To install `knoxctl`, begin by downloading the appropriate binary for your opera
 Please ensure you download the version that matches your system's specifications. If you encounter any compatibility issues or need assistance, feel free to visit our support page.
 
 - [Release version](/version/latest_version.txt)
-- [knoxctl for Linux (AMD64/x86_64)](/binaries/accuknoxcli_v0.2.2_linux_amd64.tar.gz)
-- [knoxctl for Linux (ARM64)](/binaries/accuknoxcli_v0.2.2_linux_arm64.tar.gz)
-- [knoxctl for Mac (Intel)](/binaries/accuknoxcli_v0.2.2_darwin_amd64.tar.gz)
-- [knoxctl for Mac (Apple Silicon)](/binaries/accuknoxcli_v0.2.2_darwin_arm64.tar.gz)
+- [knoxctl for Linux (AMD64/x86_64)](/binaries/accuknoxcli_0.2.4_linux_amd64.tar.gz)
+- [knoxctl for Linux (ARM64)](/binaries/accuknoxcli_0.2.4_linux_arm64.tar.gz)
+- [knoxctl for Mac (Intel)](/binaries/accuknoxcli_0.2.4_darwin_amd64.tar.gz)
+- [knoxctl for Mac (Apple Silicon)](/binaries/accuknoxcli_0.2.4_darwin_arm64.tar.gz)
