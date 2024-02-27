@@ -1,2 +1,2 @@
 ## Changelog
-* 66bf2ce fix(md): trim v
+* 1266cd6 fix(ci): remove md update
