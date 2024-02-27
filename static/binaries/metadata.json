@@ -1,1 +1,1 @@
-{"project_name":"accuknoxcli","tag":"v0.2.1","previous_tag":"v0.2.0","version":"0.2.1","commit":"69577de75946a15cb226bb392237f77aab856541","date":"2024-02-23T08:08:08.512199865Z","runtime":{"goos":"linux","goarch":"amd64"}}
+{"project_name":"accuknoxcli","tag":"v0.2.2","previous_tag":"v0.2.1","version":"0.2.2","commit":"0d1731a3b4784de1d80d635a2bc2dbf9d9866d84","date":"2024-02-27T10:50:01.240044587Z","runtime":{"goos":"linux","goarch":"amd64"}}

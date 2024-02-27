@@ -1,4 +1,3 @@
 ## Changelog
-* 69577de chore(report): add timestamp to output files
-* ac0a0ce chore(go): bump to 1.21
-* 6e1bdc1 fix(ci): push binaries
+* 0d1731a chore(markdown): update install md link
+* d07edbb add v0.2.11, v0.3.0
