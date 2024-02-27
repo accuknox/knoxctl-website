@@ -33,5 +33,5 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        aws s3 sync ./public s3://www.knoxctlwebsite.accuknox.com --delete
+        aws s3 sync ./public s3://www.knoxctlwebsite.accuknox.com --delete --debug
 
