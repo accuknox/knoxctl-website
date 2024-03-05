@@ -1,2 +1,3 @@
 ## Changelog
-* 1266cd6 fix(ci): remove md update
+* 320056c chore: spire cert URL handling
+* 4cce1ad Update Release Info for v0.4.0
