@@ -1,11 +1,11 @@
-project_name: accuknoxcli
+project_name: knoxctl
 release:
   github:
     owner: accuknox
     name: accuknox-cli-v2
   name_template: '{{.Tag}}'
 builds:
-  - id: accuknoxcli
+  - id: knoxctl
     goos:
       - darwin
       - linux
@@ -30,7 +30,9 @@ builds:
     gobinary: go
     command: build
     ldflags:
-      - -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{.Date}} -X main.builtBy=goreleaser
+      - -s -w -X github.com/accuknox/accuknox-cli-v2/pkg/version.GitSummary={{.Version}} -X github.com/accuknox/accuknox-cli-v2/pkg/version.BuildDate={{.Date}}
+    flags:
+      - -trimpath
     env:
       - CGO_ENABLED=0
 archives:

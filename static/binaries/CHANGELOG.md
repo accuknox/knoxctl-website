@@ -1,3 +1,2 @@
 ## Changelog
-* 320056c chore: spire cert URL handling
-* 4cce1ad Update Release Info for v0.4.0
+* 9e05e68 chore(version): embed release tag in binary
