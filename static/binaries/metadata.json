@@ -1,1 +1,1 @@
-{"project_name":"knoxctl","tag":"v0.2.9","previous_tag":"v0.2.8","version":"0.2.9","commit":"95b904d37637a2e3992a6d53e231e56d91744f5d","date":"2024-03-14T08:46:37.63633329Z","runtime":{"goos":"linux","goarch":"amd64"}}
+{"project_name":"knoxctl","tag":"v0.2.10","previous_tag":"v0.2.9","version":"0.2.10","commit":"bda7c2b0ea0f5f8e03bd5a895b344390677918e6","date":"2024-03-15T12:00:13.446212224Z","runtime":{"goos":"linux","goarch":"amd64"}}
