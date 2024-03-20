@@ -1,2 +1,3 @@
 ## Changelog
-* bda7c2b Update Release Info for v0.2.12
+* 12ffbd7 don't push logs to alerts queue; docker compose version compat
+* eda3bf6 Update Release Info for v0.2.12
