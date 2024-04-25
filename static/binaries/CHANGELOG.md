@@ -1,2 +1,2 @@
 ## Changelog
-* fc31610 update v0.2.12
+* 5da3dfe chore: fix breaking changes

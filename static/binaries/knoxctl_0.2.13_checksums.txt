@@ -1,0 +1,4 @@
+fd2fe0c4c93fe4a06e75e2320eb48994b7450ed2f261bec5e8648a083c86991e  knoxctl_0.2.13_darwin_amd64.tar.gz
+7356e078910d968d6f17abdb00772fbc7c290d7ae448e98f92bc1c5c0cb4f0b9  knoxctl_0.2.13_darwin_arm64.tar.gz
+a4620bb7ad127fdd2634d0b5206e6b5f5459160549e934f47ee2f14faba95f38  knoxctl_0.2.13_linux_amd64.tar.gz
+ff9c63f8a3a4a9e3f2d3b758962f8c0ff541427a890f6ab5a5b72fae135a9949  knoxctl_0.2.13_linux_arm64.tar.gz
