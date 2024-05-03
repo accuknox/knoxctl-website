@@ -15,6 +15,11 @@ summaryLength = 30
     url = "/docs/"
     weight = 2
 
+[[menu.main]]
+    name = "Install"
+    url = "/install.sh"
+    weight = 3
+
 [params]
     homepage_button_link = '/docs'
     homepage_button_text = 'Read The Docs'
