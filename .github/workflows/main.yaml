@@ -35,8 +35,3 @@ jobs:
       run: |
         aws s3 sync ./public s3://www.knoxctlwebsite.accuknox.com --delete --debug
 
-    - name: Invalidate CloudFront
-      uses: chetan/invalidate-cloudfront-action@v2
-      env:
-        DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
-        PATHS: "/*"
