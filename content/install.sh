@@ -90,11 +90,11 @@ get_binaries() {
 semver_compare() {
 	V1_MAJOR=$(echo "$1"| cut -d'.' -f 1)
 	V1_MINOR=$(echo "$1"| cut -d'.' -f 2)
-	V1_PATCH=$(echo "$1"| cut -d'.' -f 3)
+	V1_PATCH=$(echo "$1"| cut -d'.' -f 3 | cut -d'-' -f 1)
 
 	V2_MAJOR=$(echo "$2"| cut -d'.' -f 1)
 	V2_MINOR=$(echo "$2"| cut -d'.' -f 2)
-	V2_PATCH=$(echo "$2"| cut -d'.' -f 3)
+	V2_PATCH=$(echo "$2"| cut -d'.' -f 3 | cut -d'-' -f 1)
 
 	if ([ "${V1_MAJOR}" -gt "${V2_MAJOR}" ]) || \
 	([ "${V1_MAJOR}" -eq "${V2_MAJOR}" ] && [ "${V1_MINOR}" -gt "${V2_MINOR}" ]) || \
@@ -131,7 +131,7 @@ tag_to_version() {
 			# tag doesn't contain patch version
 			temp_tag=${TAG#v}
 			tag_length=${#temp_tag}
-			if [[ $tag_length -le 3 ]]; then
+			if [ $tag_length -le 3 ]; then
 				TAG=$(get_patch_version "$OWNER/$REPO" $TAG)
 			fi
 
@@ -309,8 +309,11 @@ http_download_curl() {
   else
     code=$(curl -w '%{http_code}' -sL -H "$header" -o "$local_file" "$source_url")
   fi
-  if [ "$code" != "200" ]; then
-    log_debug "http_download_curl received HTTP status $code"
+  if [ "$code" = "403" ] || [ "$code" = "429" ]; then
+    log_err "rate limit exceeded - HTTP status $code"
+    return 1
+  elif [ "$code" != "200" ]; then
+    log_err "http_download_curl received HTTP status $code"
     return 1
   fi
   return 0
