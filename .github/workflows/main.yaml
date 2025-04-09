@@ -35,3 +35,6 @@ jobs:
       run: |
         aws s3 sync ./public s3://www.knoxctlwebsite.accuknox.com --delete --debug && aws s3 sync ./public s3://knoxctl-cli --delete --debug
 
+    - name: Deploy to knoxctl-cli S3
+      run: |
+        aws s3 sync ./public s3://knoxctl-cli --delete --debug
