@@ -339,7 +339,7 @@ http_download() {
 }
 
 http_copy() {
-  tmp=$(mktemp)
+  tmp=$(mktemp $TMPDIR)
   http_download "${tmp}" "$1" "$2" || return 1
   body=$(cat "$tmp")
   rm -f "${tmp}"

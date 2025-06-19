@@ -1,4 +1,0 @@
-f03695fdbcad35c26fdeff15069dd66124e11ab805bd21323477fe2b54871d31  knoxctl_0.2.9_darwin_amd64.tar.gz
-7176935528831daee5beea5f3bbadf175db1b728d1f04a6bdc82a37156b56f65  knoxctl_0.2.9_darwin_arm64.tar.gz
-10686c7d7b5bb378960a09f69266a629c2eff8ac429f1246fb417fd54101ea7b  knoxctl_0.2.9_linux_amd64.tar.gz
-8b56af7280a8b4bdefd2ea4be6c1792690d406ced5d6c59976aa7cc1ebced4c0  knoxctl_0.2.9_linux_arm64.tar.gz
